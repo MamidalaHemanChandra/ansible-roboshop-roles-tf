@@ -1,0 +1,7 @@
+- name: import vs include
+  ansible.builtin.debug:
+    msg: "Heman"
+
+- name: import vs include
+  ansible.builtin.debug:
+    msg: "Heman"
