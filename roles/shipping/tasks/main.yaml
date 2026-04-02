@@ -9,10 +9,10 @@
     tasks_from: java-setup.yaml
 
 - name: load products into mysql
-  community.mysql.mysql_db:
+  mysql_db:
     name: all
     state: import
-    login_host: "{{ login_host }}"
+    login_host: localhost
     login_user: "{{ login_user }}"
     login_password: "{{ login_password }}"
     target: "{{ item }}"
