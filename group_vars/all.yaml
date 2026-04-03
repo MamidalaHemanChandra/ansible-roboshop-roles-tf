@@ -1,5 +1,5 @@
 MONGODB_HOST: mongodb-{{ env }}.heman.icu
-REDIS_HOST: redis-{{ env }}.{{ env }}.heman.icu
+REDIS_HOST: redis-{{ env }}.heman.icu
 MYSQL_HOST: mysql-{{ env }}.heman.icu
 RABBITMQ_HOST: rabbitmq-{{ env }}.heman.icu
 CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.heman.icu
